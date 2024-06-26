@@ -1,0 +1,11 @@
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\bin\Debug\Checkers.exe.config
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\bin\Debug\Checkers.exe
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\bin\Debug\Checkers.pdb
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.csproj.AssemblyReference.cache
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.csproj.SuggestedBindingRedirects.cache
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.Form1.resources
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.Properties.Resources.resources
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.csproj.GenerateResource.cache
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.csproj.CoreCompileInputs.cache
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.exe
+C:\Users\szym2\Desktop\GRYROKU\Warcaby\Checkers\obj\Debug\Checkers.pdb
