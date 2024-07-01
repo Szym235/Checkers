@@ -107,6 +107,7 @@
             this.pictureBoxMenuBackground = new System.Windows.Forms.PictureBox();
             this.labelMenuTitle = new System.Windows.Forms.Label();
             this.buttonTitlePlay = new System.Windows.Forms.Button();
+            this.buttonCloseGame = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNextTurn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTurnInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
@@ -952,7 +953,7 @@
             // 
             // pictureBoxMenuBackground
             // 
-            this.pictureBoxMenuBackground.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxMenuBackground.Location = new System.Drawing.Point(-13, -11);
             this.pictureBoxMenuBackground.Name = "pictureBoxMenuBackground";
             this.pictureBoxMenuBackground.Size = new System.Drawing.Size(850, 678);
             this.pictureBoxMenuBackground.TabIndex = 113;
@@ -962,7 +963,7 @@
             // 
             this.labelMenuTitle.AutoSize = true;
             this.labelMenuTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F);
-            this.labelMenuTitle.Location = new System.Drawing.Point(193, 30);
+            this.labelMenuTitle.Location = new System.Drawing.Point(184, 122);
             this.labelMenuTitle.Name = "labelMenuTitle";
             this.labelMenuTitle.Size = new System.Drawing.Size(483, 91);
             this.labelMenuTitle.TabIndex = 114;
@@ -971,7 +972,7 @@
             // buttonTitlePlay
             // 
             this.buttonTitlePlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.buttonTitlePlay.Location = new System.Drawing.Point(313, 142);
+            this.buttonTitlePlay.Location = new System.Drawing.Point(313, 249);
             this.buttonTitlePlay.Name = "buttonTitlePlay";
             this.buttonTitlePlay.Size = new System.Drawing.Size(225, 68);
             this.buttonTitlePlay.TabIndex = 115;
@@ -979,11 +980,23 @@
             this.buttonTitlePlay.UseVisualStyleBackColor = true;
             this.buttonTitlePlay.Click += new System.EventHandler(this.buttonTitlePlay_Click);
             // 
+            // buttonCloseGame
+            // 
+            this.buttonCloseGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.buttonCloseGame.Location = new System.Drawing.Point(313, 336);
+            this.buttonCloseGame.Name = "buttonCloseGame";
+            this.buttonCloseGame.Size = new System.Drawing.Size(225, 68);
+            this.buttonCloseGame.TabIndex = 116;
+            this.buttonCloseGame.Text = "Exit";
+            this.buttonCloseGame.UseVisualStyleBackColor = true;
+            this.buttonCloseGame.Click += new System.EventHandler(this.buttonCloseGame_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 679);
+            this.Controls.Add(this.buttonCloseGame);
             this.Controls.Add(this.buttonTitlePlay);
             this.Controls.Add(this.labelMenuTitle);
             this.Controls.Add(this.pictureBoxMenuBackground);
@@ -1222,6 +1235,7 @@
         private System.Windows.Forms.PictureBox pictureBoxMenuBackground;
         private System.Windows.Forms.Label labelMenuTitle;
         private System.Windows.Forms.Button buttonTitlePlay;
+        private System.Windows.Forms.Button buttonCloseGame;
     }
 }
 

@@ -61,29 +61,28 @@ namespace Checkers
             labelRedPlayerCount.Text = counterRed.ToString();
             labelBluePlayerCount.Text = counterBlue.ToString();
 
-            if(counterRed == 0)
+            if(counterRed == 0 || counterBlue == 0)
             {
+                if(counterRed == 0)
+                {
+                    labelMenuTitle.Text = "BLUE WON";
+                    labelMenuTitle.ForeColor = Color.Blue;
+                }
+                else if (counterBlue == 0)
+                {
+                    labelMenuTitle.Text = "RED WON";
+                    labelMenuTitle.ForeColor = Color.Red;
+                }
                 pictureBoxMenuBackground.Visible = true;
                 pictureBoxMenuBackground.BringToFront();
-                labelMenuTitle.Text = "BLUE WON";
-                labelMenuTitle.ForeColor = Color.Blue;
                 labelMenuTitle.Visible = true;
                 labelMenuTitle.BringToFront();
                 buttonTitlePlay.Text = "Play again";
                 buttonTitlePlay.Visible = true;
                 buttonTitlePlay.BringToFront();
-            }
-            else if (counterBlue == 0)
-            {
-                pictureBoxMenuBackground.Visible = true;
-                pictureBoxMenuBackground.BringToFront();
-                labelMenuTitle.Text = "RED WON";
-                labelMenuTitle.ForeColor = Color.Red;
-                labelMenuTitle.Visible = true;
-                labelMenuTitle.BringToFront();
-                buttonTitlePlay.Text = "Play again";
-                buttonTitlePlay.Visible = true;
-                buttonTitlePlay.BringToFront();
+                buttonCloseGame.Visible = true;
+                buttonCloseGame.BringToFront();
+                
             }
         }
 
@@ -107,6 +106,7 @@ namespace Checkers
             buttonTitlePlay.Visible = false;
             labelMenuTitle.Visible = false;
             pictureBoxMenuBackground.Visible = false;
+            buttonCloseGame.Visible = false;
 
             for(int i = 0; i < 8; i++)
             {
@@ -160,6 +160,11 @@ namespace Checkers
                 }
             }
             countPawns();
+        }
+
+        private void buttonCloseGame_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
         }
     }
 }
